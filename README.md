@@ -16,16 +16,14 @@ What am I predicting?
 You are attempting to predict bounding boxes around each wheat head in images that have them. If there are no wheat heads, you must predict no bounding boxes.
 
 # Files
-train.csv - the training data
+* train.csv - the training data
+* sample_submission.csv - a sample submission file in the correct format
+* train.zip - training images
+* test.zip - test images
 
-sample_submission.csv - a sample submission file in the correct format
+# Columns
 
-train.zip - training images
-test.zip - test images
-
-Columns
-
-image_id - the unique image ID
-width, height - the width and height of the images
-bbox - a bounding box, formatted as a Python-style list of [xmin, ymin, width, height]
+* image_id - the unique image ID
+* width, height - the width and height of the images
+* bbox - a bounding box, formatted as a Python-style list of [xmin, ymin, width, height]
 etc.
